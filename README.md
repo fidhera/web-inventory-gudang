@@ -1,58 +1,67 @@
-# Web-Inventory-Barang
-Inventory Barang Berbasis Web
-___________________________________________________________________________________________________________________________________________________________________
+# Web Inventory Barang
 
-<strong>Tentang Website Inventory</strong>
+Aplikasi **Web Inventory Barang** adalah sistem manajemen persediaan berbasis web yang dirancang untuk membantu perusahaan dalam **mencatat, mengelola, dan memonitor keluar–masuk barang** pada setiap gudang secara terstruktur dan efisien.
 
+Aplikasi ini mendukung proses operasional mulai dari pencatatan barang masuk dari supplier hingga pengelolaan barang keluar yang diajukan oleh petugas dan disetujui oleh admin.
 
-Website inventory adalah aplikasi berbasis Web untuk mengatur dan mencatat keluar masuk barang di masing-masing gudang dalam satu perusahaan, yang meliputi pencatatan barang masuk dari Supplier dan pencatatan barang keluar.
+---
 
-<strong>Fitur website</strong>
-  1. Fitur Login
-    <ul type="square">
-    <li>Memakai pengamanan MD5 untuk password</li>
-    <li>Admin dan Petugas mempunyai tempat loginnya masing - masing</li>
-    </ul>
-  2. Fitur Admin
-  
-  <ul type="square">
-    <li>Admin bisa melihat statistik data di dashboard nya</li>
-    <li>Admin bisa melihat, menambahkan, menghapus dan mengubah data admin</li>
-    <li>Admin bisa melihat, menambahkan, menghapus dan mengubah data petugas</li>
-    <li>Admin bisa melihat, menambahkan, menghapus dan mengubah data supplier</li>
-    <li>Admin bisa melihat, menambahkan, dan menghapus data rak</li>
-    <li>Admin bisa melihat, menambahkan, menghapus dan mengubah data barang</li>
-    <li>Admin bisa menyetujui ajuan pengeluaran barang yang di ajukan oleh petugas</li>
-  </ul>
- 
-  3. Fitur Petugas
-   <ul type="square">
-    <li>Petugas bisa melihat statistik data di dashboard nya</li>
-    <li>Petugas bisa menambahkan stok barang</li>
-    <li>Petugas bisa mengajukan barang kepada admin</li>
-    
-  </ul>
-  
-  ________________________________________________________________________________________________________________________________________________________________
-  <strong>Login default : </strong>
-  1. Login Admin :
-  <ul type="square">
-    <li>username = admin </li>
-    <li>password = admin</li>
-   
-  </ul>
- 
-  2. Login Petugas
-   <ul type="square">
-    <li>username = petugas</li>
-    <li>password = petugas</li>
+## Tentang Aplikasi
 
-    
-  </ul>
-  
-  
--> Catatan(PENTING) :
-    <i>Sebelum mengimport database, pastikan anda membuat database sesuai dengan nama database yang ada di dalam folder DATABASE, yaitu 'inventory'</i>
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Website Inventory Barang digunakan untuk:
+- Mengelola data barang pada gudang
+- Mencatat stok masuk dan keluar
+- Memisahkan hak akses antara **Admin** dan **Petugas**
+- Menyediakan sistem persetujuan pengeluaran barang
 
-<strong> Harap Jangan mengubah copyright yang ada di footer website</strong>
+Aplikasi ini cocok digunakan sebagai:
+- Proyek akademik
+- Sistem internal perusahaan skala kecil hingga menengah
+- Referensi pengembangan aplikasi inventory berbasis web
+
+---
+
+## Fitur Utama
+
+### 1. Sistem Login
+- Autentikasi menggunakan enkripsi **MD5**
+- Hak akses terpisah antara **Admin** dan **Petugas**
+- Keamanan login sesuai peran pengguna
+
+### 2. Fitur Admin
+Admin memiliki kontrol penuh terhadap sistem, meliputi:
+- Melihat statistik data pada dashboard
+- Mengelola data admin
+- Mengelola data petugas
+- Mengelola data supplier
+- Mengelola data rak penyimpanan
+- Mengelola data barang
+- Menyetujui atau menolak pengajuan pengeluaran barang dari petugas
+
+### 3. Fitur Petugas
+Petugas berfokus pada operasional gudang, meliputi:
+- Melihat statistik data pada dashboard
+- Menambahkan stok barang
+- Mengajukan pengeluaran barang kepada admin
+
+---
+
+## Informasi Login Default
+
+### Login Admin
+- **Username:** admin  
+- **Password:** admin  
+
+### Login Petugas
+- **Username:** petugas  
+- **Password:** petugas  
+
+---
+
+## Instalasi & Konfigurasi Database
+
+> **Catatan Penting**
+
+Sebelum mengimpor database, pastikan Anda telah:
+1. Membuat database dengan nama **`inventory`**
+2. Mengimpor file database yang tersedia pada folder:
